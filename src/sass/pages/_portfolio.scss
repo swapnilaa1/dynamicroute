@@ -1,0 +1,12 @@
+.outer{
+    & .inner{
+        background-color: cadetblue;
+        & ul {
+            display: flex;
+            flex-direction: row;
+            & li{
+                margin-right: 40px;
+            }
+        }
+    }
+}
